@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadTransform"
+		android:padding="15dp"
+		android:text="loadTransform"
+		android:textAllCaps="false"
+		/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadMyGlideUrl"
+		android:padding="15dp"
+		android:text="loadMyGlideUrl"
+		android:textAllCaps="false"
+		/>
+
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadTransform2"
+		android:padding="15dp"
+		android:text="loadTransform2"
+		android:textAllCaps="false"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadCenterCropTransform"
+		android:padding="15dp"
+		android:text="loadCenterCropTransform"
+		android:textAllCaps="false"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadCenterCropTransform2"
+		android:padding="15dp"
+		android:text="loadCenterCropTransform2"
+		android:textAllCaps="false"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadFitCenterTransform"
+		android:padding="15dp"
+		android:text="loadFitCenterTransform"
+		android:textAllCaps="false"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadCircleTransform"
+		android:padding="15dp"
+		android:text="loadCircleTransform"
+		android:textAllCaps="false"/>
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="loadGlideTransforms"
+		android:padding="15dp"
+		android:text="loadGlideTransforms"
+		android:textAllCaps="false"/>
+	<ImageView
+		android:id="@+id/iv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+
+</LinearLayout>
+</ScrollView>
